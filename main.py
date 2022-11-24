@@ -1,5 +1,5 @@
 """'''
-Ini adalah demo awal project pertama dengan python
+Ini adalah project pertama saya
 '''"""
 print("Hello world")
 print("My name is Joko Saputro")
