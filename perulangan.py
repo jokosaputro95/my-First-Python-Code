@@ -32,23 +32,23 @@ print(f'Jumlah buku yang sudah dibaca {jumlahBukuBaca}')
 """
 Baca semua buku sampai faham
 """
-jumlahBuku = 10
+bookCount = 10
 print('Ibu berkata, "Baca semua buku sampai faham"')
-jumlahBacaDanPaham = 0
-print(f'Jumlah buku yang sudah dibaca dan dipahami sebanyak {jumlahBacaDanPaham}')
-jumlahBaca = 0
+understoodCount = 0
+print(f'Jumlah buku yang sudah dibaca dan dipahami sebanyak {understoodCount}')
+readCount = 0
 
-while jumlahBaca < jumlahBuku * 2:
-    jumlahBaca += 1
-    if jumlahBacaDanPaham == 9:
-        print(f'Buku ke {jumlahBacaDanPaham + 1} belum paham')
+while readCount < bookCount * 2:
+    readCount += 1
+    if understoodCount == 9:
+        print(f'Buku ke {understoodCount + 1} belum paham')
     else:
-        jumlahBacaDanPaham += 1
-        print(f'Buku ke {jumlahBacaDanPaham} sudah dibaca dan dipahami')
+        understoodCount += 1
+        print(f'Buku ke {understoodCount} sudah dibaca dan dipahami')
 
-print(f'Jumlah buku yang sudah dibaca dan di pahami {jumlahBacaDanPaham}')
+print(f'Jumlah buku yang sudah dibaca dan di pahami {understoodCount}')
 
-if jumlahBacaDanPaham == jumlahBaca:
+if understoodCount == readCount:
     print('"Bu, semua buku sudah dibaca dan dipahami"')
 else:
-    print(f'"Bu, tidak semua buku bisa dipahami, Budi hanya bisa memahami {jumlahBacaDanPaham} buku"')
+    print(f'"Bu, tidak semua buku bisa dipahami, Budi hanya bisa memahami {understoodCount} buku"')
