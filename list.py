@@ -1,3 +1,6 @@
+"""
+Tipe Data list == array
+"""
 bookList = ['Seven Habits', 'How to Influence People', 'First Things First', '4DX']
 print('Tampil variable bookList')
 print(bookList)
